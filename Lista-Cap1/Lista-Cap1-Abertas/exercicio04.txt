@@ -1,0 +1,9 @@
+#include <stdio.h> 
+#include <stdlib.h>; 
+int Main{} // Quando abrimos a main, tem que ser declarada com minusculo "main". Outro erro está faltando os parênteses depois do nome, o certo é escrever "main()". 
+( // Parênteses não fazem parte do contexto no momento, o código deve ficar dentro de chaves
+    printf( Existem %d semanas no ano.,52); // Aqui, o correto seria colocar o texto dentro de aspas, depois fechar pôr uma virgula e chamar o número. 
+    cout << endl; // Esse comando aí é de C++, não existe em C.
+    system("PAUSE"); 
+    return 0; 
+) // Como abriu a main com parênteses errado, aqui também tinha que fechar com chave e não com parênteses

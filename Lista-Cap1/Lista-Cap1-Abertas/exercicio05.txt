@@ -1,0 +1,8 @@
+
+main() 
+{ 
+    printf("Linguagem C"); 
+    system("pause"); 
+} 
+
+O código não está correto pois para utilizar do printf é necessário chamar o #include <stdio.h>, já o system é necessário chamar o #include <stdlib.h>, a função main precisa declarar o tipo de retorno "int" antes do nome (o correto seria "int main()") e a função não está retornando nada, será necessário um return 0.

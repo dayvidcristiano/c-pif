@@ -1,0 +1,11 @@
+
+main() 
+{ 
+    int a=1; b=2; c=3: 
+    printf("0s números são: %d%d%d\n, a, b, c, d); 
+    system("pause"); 
+} 
+
+Está faltando seguir a regra do padrão ANSI C. 
+As variáveis declaradas devem ser separadas por vírgula, não por vírgula e ponto, e no final da linha tem que colocar ponto e vírgula, não dois pontos.
+

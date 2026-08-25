@@ -1,0 +1,11 @@
+a) printf("\n\tBom dia! Shirley."); 
+b) printf("Você já tomou café? \n"); 
+c) printf("\n\nA solução não existe!\nNão insista."); 
+d) printf("Duas\tlinhas\tde\tsaída\nou\tuma?"); 
+e) printf("%s\n%s\n%s\n", "um", "dois", "três"); 
+
+A solucao nao existe!
+Nao insista.Duas        linhas  de      saida
+ou      uma?um
+dois
+tres
