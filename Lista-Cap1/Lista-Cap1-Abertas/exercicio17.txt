@@ -1,0 +1,7 @@
+Dentre as instruções de escrita abaixo, quais estão sintaticamente corretas? O que essas 
+variações demonstram sobre a flexibilidade de espaçamento e formatação do compilador C? 
+
+a) printf ( "Primeiro programa" ); // resposta correta
+b) printf( "Primeiro programa" ); // resposta correta
+c) printf("Primeiro programa"); // resposta correta
+d) printf "Primeiro programa" ; // faltando parênteses

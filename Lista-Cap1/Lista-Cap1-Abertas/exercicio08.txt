@@ -1,0 +1,3 @@
+"Primeiro programa"Pressione qualquer tecla para continuar. . . 
+
+Saída exata é: uma linha em branco (por causa do \n), seguida de uma linha com um tab de recuo e o texto "Primeiro programa" entre aspas.

@@ -1,0 +1,1 @@
+O printf("%c", "\"") tem comportamento indefinido, pois passa uma string para %c, que espera um char.
