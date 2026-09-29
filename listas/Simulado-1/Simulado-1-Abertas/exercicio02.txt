@@ -1,0 +1,3 @@
+#include <stdlib.h>; - ponto e vírgula sobrando após o include.
+int Main() - "Main" com M maiúsculo, o C exige main minúsculo.
+printf( A idade do aluno eh: %d anos.. , idade); - a string não está entre aspas.

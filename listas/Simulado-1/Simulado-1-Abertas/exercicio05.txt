@@ -1,0 +1,5 @@
+a) Porque soma foi declarada dentro do bloco do for, então só existe ali. Fora do laço, no printf, ela não é reconhecida.
+
+b) Executam completas: i = 1, 2, 3, 4, 6, 7. O continue pula i = 5. O break encerra o laço em i = 8, então 8, 9, 10 não executam.
+
+c) Está na lista de codigos. 
