@@ -1,0 +1,3 @@
+a) while testa antes (pode nunca executar); do-while executa primeiro e testa depois (sempre roda 1 vez).
+b) for: numero de repeticoes conhecido. while: nao sabe quantas, pode nem rodar. do-while: precisa rodar ao menos 1 vez.
+c) Erro de logica. O ; deixa o corpo vazio. Se condicao for verdadeira, vira laco infinito.

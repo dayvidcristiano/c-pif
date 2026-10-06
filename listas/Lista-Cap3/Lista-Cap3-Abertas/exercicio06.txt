@@ -1,0 +1,2 @@
+a) x = 6
+b) Compara antes de incrementar, pos-incremento. Vai de 0 a 5 passando no teste, no x=5 ainda incrementa mesmo falhando, chegando a 6.

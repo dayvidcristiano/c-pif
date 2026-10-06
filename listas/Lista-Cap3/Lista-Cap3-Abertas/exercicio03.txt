@@ -1,0 +1,3 @@
+a) 36 18 9 4 2 1
+b) Le um caractere e compara com 'X'. Os parenteses garantem que a atribuicao ch = getch() aconteça antes da comparacao !=. ch + 1 imprime o proximo caractere da ASCII.
+c) Usando break, return ou exit().

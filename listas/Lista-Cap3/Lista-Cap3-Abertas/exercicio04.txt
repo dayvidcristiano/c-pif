@@ -1,0 +1,3 @@
+a) Encerra o laco totalmente.
+b) Pula o resto da iteracao atual; no for, executa o incremento em seguida.
+c) Interrompe so o laco interno.

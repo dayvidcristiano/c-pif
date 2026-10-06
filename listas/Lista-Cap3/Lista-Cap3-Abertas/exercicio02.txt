@@ -1,0 +1,2 @@
+a) soma foi declarada dentro do for, so existe ali. Fora dele nao e reconhecida.
+b) Porque soma = 0 reinicia a cada volta, perdendo o acumulado anterior.
