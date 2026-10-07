@@ -68,8 +68,12 @@ c-pif/
 └── listas/
     ├── Lista-Cap1/
     │   └── Lista-Cap1-Abertas/
-    └── Lista-Cap2/
-        └── Lista-Cap2-Abertas/
+    ├── Lista-Cap2/
+    │   └── Lista-Cap2-Abertas/
+    ├── Lista-Cap3/
+    │   └── Lista-Cap3-Abertas/
+    └── Simulado-1/
+        └── Simulado-1-Abertas/
 ```
 
 Cada pasta de aula ou lista contém os arquivos `.c` correspondentes aos exercícios daquele encontro ou capítulo. As pastas `Lista-Cap1-Abertas` e `Lista-Cap2-Abertas` contêm as respostas discursivas (em `.txt`) das questões teóricas de cada capítulo.
