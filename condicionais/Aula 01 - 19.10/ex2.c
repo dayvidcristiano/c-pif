@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -8,10 +9,11 @@ int main(){
 
     for(int lin = 0; lin < numLinCol; lin++){
         for(int col = 0; col < numLinCol; col++){
-            ((lin + col) % 2 == 0) ? printf("%c%c", 219, 219) : printf("");
+            ((lin + col) % 2 == 0) ? printf("%c%c", 219, 219) : printf("  ");
         }
         printf("\n");
     }
 
     system("PAUSE");
+    return 0;
 }

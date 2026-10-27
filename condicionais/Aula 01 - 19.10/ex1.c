@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -11,11 +12,12 @@ int main(){
             if((lin + col) % 2 == 0){
                 printf("%c%c", 219, 219);
             } else {
-                printf(" ");
+                printf("  ");
             }
         }
         printf("\n");
     }
 
     system("PAUSE");
+    return 0;
 }
