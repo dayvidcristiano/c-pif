@@ -1,0 +1,8 @@
+a)
+Prata
+Ouro
+O case 2 não tem break, então a execução continua no case 3, que tem break.
+
+b) O break encerra o switch. Quando é omitido ocorre o fall-through (queda em cascata).
+
+c) int, char, enum e demais tipos inteiros. float e double não são permitidos, porque o switch compara com constantes inteiras e comparar números reais de forma exata não é confiável.

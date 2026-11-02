@@ -1,0 +1,5 @@
+a) a = 0, b = 5, c = 8. O ++b foi ignorado, pois a != 0 é falso. Entra no else e c -= 2.
+
+b) No &&, se o lado esquerdo é falso, o direito não é avaliado. No ||, se o lado esquerdo é verdadeiro, o direito não é avaliado.
+
+c) b = 5 e c = 20. a == 0 é verdadeiro, o ++b não executa e o if roda c += 10.

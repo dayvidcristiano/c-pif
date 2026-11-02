@@ -1,0 +1,12 @@
+a) Se media >= 7.0 for verdadeiro, situacao recebe 'A', senão recebe 'R'. Com media = 6.8, situacao recebe 'R'.
+
+b)
+
+media = (nota1 + nota2) / 2.0;
+if (media >= 7.0) {
+    situacao = 'A';
+} else {
+    situacao = 'R';
+}
+
+c) Não. O ternário é uma expressão que devolve um valor, e cada lado aceita só uma expressão. Não comporta blocos com vários comandos nem declarações, e fica ilegível em decisões complexas.

@@ -1,0 +1,16 @@
+a) Imprime Idoso, Adulto e Jovem. Os três if são independentes e todos são testados, e os três são verdadeiros para 65.
+
+b) Em if independentes todas as condições são testadas. Na cadeia else-if, ao encontrar uma condição verdadeira, o restante é ignorado.
+
+c)
+
+c
+if (idade >= 60) {
+    printf("Idoso\n");
+} else if (idade >= 18) {
+    printf("Adulto\n");
+} else if (idade >= 12) {
+    printf("Jovem\n");
+} else {
+    printf("Crianca\n");
+}

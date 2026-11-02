@@ -1,0 +1,5 @@
+a) x = 0 é uma atribuição, não uma comparação. x passa a valer 0, a expressão vale 0 (falso) e o bloco do if nunca executa (executa o else, se houver).
+
+b) Qualquer valor diferente de zero é verdadeiro e zero é falso, seja inteiro ou real.
+
+c) Será executado. x = -5 atribui -5 a x, e o valor da expressão é -5, diferente de zero, ou seja, verdadeiro no padrão ANSI C.

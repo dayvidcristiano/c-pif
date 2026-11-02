@@ -1,0 +1,12 @@
+a) Imprime Opção B. O else pertence ao if (y > 10). Como x > 10 é verdadeiro e y > 10 é falso, o else do if interno é executado.
+
+b) O else se associa ao if mais próximo que ainda não tem else.
+
+c)
+if (x > 10) {
+    if (y > 10) {
+        printf("Opcao A\n");
+    }
+} else {
+    printf("Opcao B\n");
+}
