@@ -1,0 +1,18 @@
+a) Caso base: n == 0, que devolve 1. Passo recursivo: n * fatorial(n - 1). Sem o caso base, a função chamaria a si mesma indefinidamente até estourar a pilha de execução.
+
+b) Empilhamento (ida):
+
+fatorial(4) = 4 * fatorial(3)
+fatorial(3) = 3 * fatorial(2)
+fatorial(2) = 2 * fatorial(1)
+fatorial(1) = 1 * fatorial(0)
+fatorial(0) = 1 (caso base)
+
+Desempilhamento (volta):
+
+fatorial(1) devolve 1 * 1 = 1
+fatorial(2) devolve 2 * 1 = 2
+fatorial(3) devolve 3 * 2 = 6
+fatorial(4) devolve 4 * 6 = 24
+
+c) Cada chamada cria um novo quadro na pilha, com parâmetros, variáveis locais e endereço de retorno. Os quadros ficam empilhados esperando a chamada de cima terminar e são removidos quando ela retorna. Sem caso base, os quadros nunca param de ser criados, a pilha esgota e o programa falha (stack overflow).

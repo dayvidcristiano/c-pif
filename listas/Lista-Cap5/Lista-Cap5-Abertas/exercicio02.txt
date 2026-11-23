@@ -1,0 +1,16 @@
+a) Apenas um valor. O programador queria devolver soma e media, mas return soma, media; usa o operador vírgula: avalia soma, descarta e devolve só media.
+
+b) O return; encerra a função na hora e volta ao ponto da chamada, sem devolver valor. Aqui evita imprimir "Codigo processado" quando o erro é negativo. Não é obrigatório no final de uma função void, pois ao chegar no } ela retorna sozinha.
+
+c)
+
+c
+int calcularMedia(int a, int b, int c) {
+    return (a + b + c) / 3;
+}
+
+int calcularSoma(int a, int b, int c) {
+    return a + b + c;
+}
+
+O return devolve um único valor por vez, então são necessárias duas funções para dois resultados diferentes.

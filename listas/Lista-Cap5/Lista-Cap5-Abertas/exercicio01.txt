@@ -1,0 +1,5 @@
+a) Protótipo: float celsius(float);, declarado antes da main. Chamada: c = celsius(f);, dentro da main. Definição: float celsius(float fahr) {...}, depois da main. O protótipo apresenta a função ao compilador (nome, tipo de retorno e tipos dos parâmetros). A chamada executa a função, enviando um argumento e recebendo o valor devolvido. A definição contém o código que realiza o cálculo.
+
+b) O protótipo permite ao compilador verificar se o número e os tipos dos argumentos nas chamadas estão corretos. Sem ele, e com a função definida depois da main, o compilador não conheceria a função na hora da chamada e assumiria uma declaração implícita (retorno int, sem checar parâmetros). Isso gera erro de tipos conflitantes ou resultado errado.
+
+c) O tipo é float. O tipo da função é o tipo do valor que ela devolve com return, porque é esse valor que aparece no lugar da chamada dentro das expressões. Os parâmetros são apenas entradas e podem ter tipos diferentes do retorno.

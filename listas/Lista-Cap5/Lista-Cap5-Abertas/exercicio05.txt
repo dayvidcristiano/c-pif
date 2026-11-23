@@ -1,0 +1,5 @@
+a) SQR(2+3) imprime 25 e DOBRO(2+3) imprime 8. A macro troca o texto antes da compilação. SQR vira ((2+3)*(2+3)), com parênteses de proteção. DOBRO vira 2+3*2, e a multiplicação ocorre antes da soma: 2 + 6 = 8.
+
+b) O #define é uma diretiva do pré-processador, não um comando C. Todo o texto depois do nome é copiado literalmente, então um ; seria copiado junto e quebraria as expressões. Usa-se maiúsculas por convenção, para distinguir constantes e macros de variáveis e funções.
+
+c) Com espaço entre PRN e (n), o pré-processador entende PRN como uma constante simples cujo texto é (n) printf("%d", n). O correto é sem espaço: #define PRN(n) printf("%d", n). A macro é substituição de texto, sem checagem de tipos e com argumentos que podem ser avaliados mais de uma vez. A função é compilada uma vez, tem tipos verificados e avalia cada argumento uma única vez.

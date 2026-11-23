@@ -1,0 +1,5 @@
+a) exibe_mensagem: tem um parâmetro (texto) e não retorna valor. obter_codigo: não tem parâmetros e retorna int. limpar_tela: não tem parâmetros e não retorna valor.
+
+b) A função com retorno calcula e devolve um valor para ser usado em expressões, como int soma(int a, int b). O procedimento (void) executa uma ação sem devolver nada, como exibir um menu ou limpar a tela.
+
+c) Não é válida. limpar_tela é void, então não devolve valor para guardar em x, e o compilador acusa erro. O correto é apenas limpar_tela();.

@@ -1,0 +1,5 @@
+a) #include <stdio.h> busca nos diretórios padrão do compilador, usado para bibliotecas do sistema. #include "areas.h" busca primeiro na pasta do próprio projeto, usado para cabeçalhos criados pelo programador.
+
+b) O #undef SOMA remove a definição da macro, então a partir dali SOMA deixa de ser substituída. A forma #undef SOMA(x,y) está incorreta porque o #undef recebe apenas o nome, sem lista de argumentos.
+
+c) Imprime "Modo normal". A decisão é tomada no pré-processamento, antes da compilação: o pré-processador descarta o trecho não escolhido. As diretivas não aparecem no executável porque são processadas e removidas pelo pré-processador, e o compilador recebe só código C puro.
