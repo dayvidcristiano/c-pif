@@ -1,0 +1,1 @@
+Alternativa c) 1 9. Estruturas podem ser atribuídas, e b = a copia todos os campos. Depois da cópia, b é independente de a, então mudar b.x para 9 não altera a.x, que continua 1.

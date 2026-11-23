@@ -1,0 +1,1 @@
+Alternativa b) 9 PROVA2026. O strcat junta "2026" ao final de "PROVA", formando "PROVA2026" com 9 caracteres. O strlen não conta o terminador nulo.

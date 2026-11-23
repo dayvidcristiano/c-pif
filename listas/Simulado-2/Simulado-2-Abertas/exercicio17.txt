@@ -1,0 +1,1 @@
+Alternativa d) 8. Todos os membros de uma union compartilham o mesmo espaço, então o tamanho é o do maior membro. Aqui char c[8] ocupa 8 bytes, int ocupa 4 e double ocupa 8, logo sizeof(Dado) é 8.

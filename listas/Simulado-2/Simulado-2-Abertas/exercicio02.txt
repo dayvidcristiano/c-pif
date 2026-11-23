@@ -1,0 +1,1 @@
+Alternativa c) 5. Com op = 2, entra no case 2 (t = 2). Sem break, continua no case 3 (t = 5), onde o break encerra o switch.

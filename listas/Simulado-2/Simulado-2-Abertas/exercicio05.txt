@@ -1,0 +1,1 @@
+Alternativa d) 3 7. O C passa os parâmetros por valor: a função troca recebe cópias de x e y, troca as cópias e não altera as variáveis originais da main.

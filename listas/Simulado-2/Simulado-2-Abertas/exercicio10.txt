@@ -1,0 +1,1 @@
+Alternativa c) 15. m[0][2] = 3, m[1][1] = 5 e m[2][0] = 7, e 3 + 5 + 7 = 15. É a diagonal secundária.

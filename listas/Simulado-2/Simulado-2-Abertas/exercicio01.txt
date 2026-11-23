@@ -1,0 +1,1 @@
+Alternativa b) Y e, em seguida, Z. O else pertence ao if mais próximo, o if (b > 5). Como a > 5 é verdadeiro e b > 5 é falso, o else executa e imprime Y. O printf("Z") está fora dos if e sempre executa.
